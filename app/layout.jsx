@@ -1,0 +1,1 @@
+import "./globals.css"; export const metadata={title:"National Fantasy League | Official Archive",description:"National Fantasy League standings, records, rivalries and history since 2025"}; export default function RootLayout({children}){return <html lang="en"><body>{children}</body></html>}
