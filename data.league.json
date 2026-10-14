@@ -1,0 +1,1004 @@
+{
+  "league": {
+    "name": "National Fantasy League",
+    "established": 2025,
+    "espnLeagueId": "1367701078"
+  },
+  "teams": [
+    {
+      "id": "por",
+      "name": "Portland Predators",
+      "manager": "Damian Gazzaneo",
+      "division2025": "West",
+      "division2026": "West",
+      "status": "Active",
+      "firstSeason": 2025
+    },
+    {
+      "id": "ttp",
+      "name": "Tampa Torta Pounders",
+      "manager": "Dylan Supan",
+      "division2025": "West",
+      "division2026": "West",
+      "status": "Active",
+      "firstSeason": 2025
+    },
+    {
+      "id": "jcj",
+      "name": "Jersey City Jigaboos",
+      "manager": "Holden Axelrod",
+      "division2025": "East",
+      "division2026": "East",
+      "status": "Active",
+      "firstSeason": 2025
+    },
+    {
+      "id": "pal",
+      "name": "Palestinian Cities",
+      "manager": "Isaiah Wyatt",
+      "division2025": "East",
+      "division2026": "East",
+      "status": "Active",
+      "firstSeason": 2025
+    },
+    {
+      "id": "ala",
+      "name": "Alabama Windchimes",
+      "manager": "Dontae Salvatore",
+      "division2025": "East",
+      "division2026": "East",
+      "status": "Active",
+      "firstSeason": 2025
+    },
+    {
+      "id": "pen",
+      "name": "Pennsylvania Penny Pinchers",
+      "manager": "Ayman Mohammed",
+      "division2025": "East",
+      "division2026": "East",
+      "status": "Active",
+      "firstSeason": 2025
+    },
+    {
+      "id": "sss",
+      "name": "Southside scratch and sniff",
+      "manager": "Jake Romano",
+      "division2025": "West",
+      "division2026": "West",
+      "status": "Active",
+      "firstSeason": 2025
+    },
+    {
+      "id": "bag",
+      "name": "Baghdad Bombers",
+      "manager": "Anthony Peschell",
+      "division2025": "West",
+      "division2026": "West",
+      "status": "Active",
+      "firstSeason": 2025
+    },
+    {
+      "id": "mic",
+      "name": "Michigan Mooncrickets",
+      "manager": "Lorenzo Espinal",
+      "division2025": "West",
+      "division2026": null,
+      "status": "Departed",
+      "firstSeason": 2025
+    },
+    {
+      "id": "njk",
+      "name": "New Jersey Knuckledraggers",
+      "manager": "Joe Hawkins",
+      "division2025": "East",
+      "division2026": null,
+      "status": "Returning 2027",
+      "firstSeason": 2025
+    },
+    {
+      "id": "pea",
+      "name": "PUTNUM'S PEACOCK'S",
+      "manager": null,
+      "division2025": null,
+      "division2026": "East",
+      "status": "Active",
+      "firstSeason": 2026
+    }
+  ],
+  "matchups": [
+    {
+      "season": 2025,
+      "week": 1,
+      "home": "Tampa Torta Pounders",
+      "away": "Portland Predators",
+      "homeScore": 88.82,
+      "awayScore": 72.02,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "home": "Jersey City Jigaboos",
+      "away": "New Jersey Knuckledraggers",
+      "homeScore": 124.36,
+      "awayScore": 104.4,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "home": "Palestinian Cities",
+      "away": "Michigan Mooncrickets",
+      "homeScore": 95.32,
+      "awayScore": 126.92,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "home": "Southside scratch and sniff",
+      "away": "Baghdad Bombers",
+      "homeScore": 101.86,
+      "awayScore": 97.58,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "home": "Pennsylvania Penny Pinchers",
+      "away": "Alabama Windchimes",
+      "homeScore": 115.68,
+      "awayScore": 136.62,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "home": "Portland Predators",
+      "away": "Southside scratch and sniff",
+      "homeScore": 83.68,
+      "awayScore": 133.6,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "home": "Tampa Torta Pounders",
+      "away": "Jersey City Jigaboos",
+      "homeScore": 116.6,
+      "awayScore": 105.42,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "home": "New Jersey Knuckledraggers",
+      "away": "Palestinian Cities",
+      "homeScore": 109.88,
+      "awayScore": 114.64,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "home": "Michigan Mooncrickets",
+      "away": "Pennsylvania Penny Pinchers",
+      "homeScore": 132.1,
+      "awayScore": 116.04,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "home": "Baghdad Bombers",
+      "away": "Alabama Windchimes",
+      "homeScore": 93.7,
+      "awayScore": 147.28,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "home": "Alabama Windchimes",
+      "away": "Portland Predators",
+      "homeScore": 119.66,
+      "awayScore": 107.64,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "home": "Jersey City Jigaboos",
+      "away": "Palestinian Cities",
+      "homeScore": 105.12,
+      "awayScore": 109.1,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "home": "Southside scratch and sniff",
+      "away": "Tampa Torta Pounders",
+      "homeScore": 103.72,
+      "awayScore": 119.82,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "home": "Pennsylvania Penny Pinchers",
+      "away": "New Jersey Knuckledraggers",
+      "homeScore": 123.34,
+      "awayScore": 91.52,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "home": "Baghdad Bombers",
+      "away": "Michigan Mooncrickets",
+      "homeScore": 145.02,
+      "awayScore": 105.28,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "home": "Portland Predators",
+      "away": "Michigan Mooncrickets",
+      "homeScore": 118.54,
+      "awayScore": 150.12,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "home": "Southside scratch and sniff",
+      "away": "Jersey City Jigaboos",
+      "homeScore": 79.98,
+      "awayScore": 158.56,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "home": "Palestinian Cities",
+      "away": "Pennsylvania Penny Pinchers",
+      "homeScore": 138.42,
+      "awayScore": 142.6,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "home": "Tampa Torta Pounders",
+      "away": "Alabama Windchimes",
+      "homeScore": 138.72,
+      "awayScore": 119.2,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "home": "New Jersey Knuckledraggers",
+      "away": "Baghdad Bombers",
+      "homeScore": 94.98,
+      "awayScore": 100.06,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "home": "Portland Predators",
+      "away": "New Jersey Knuckledraggers",
+      "homeScore": 140.72,
+      "awayScore": 141.78,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "home": "Jersey City Jigaboos",
+      "away": "Pennsylvania Penny Pinchers",
+      "homeScore": 114.22,
+      "awayScore": 122.62,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "home": "Alabama Windchimes",
+      "away": "Southside scratch and sniff",
+      "homeScore": 170.92,
+      "awayScore": 143.16,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "home": "Baghdad Bombers",
+      "away": "Palestinian Cities",
+      "homeScore": 123.08,
+      "awayScore": 115.14,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "home": "Michigan Mooncrickets",
+      "away": "Tampa Torta Pounders",
+      "homeScore": 111.44,
+      "awayScore": 108.82,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "home": "Palestinian Cities",
+      "away": "Portland Predators",
+      "homeScore": 173.08,
+      "awayScore": 96.86,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "home": "Alabama Windchimes",
+      "away": "Jersey City Jigaboos",
+      "homeScore": 141.38,
+      "awayScore": 107.8,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "home": "Pennsylvania Penny Pinchers",
+      "away": "Baghdad Bombers",
+      "homeScore": 105.22,
+      "awayScore": 93.34,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "home": "Southside scratch and sniff",
+      "away": "Michigan Mooncrickets",
+      "homeScore": 87.94,
+      "awayScore": 98.34,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "home": "Tampa Torta Pounders",
+      "away": "New Jersey Knuckledraggers",
+      "homeScore": 125.74,
+      "awayScore": 85.04,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "home": "Portland Predators",
+      "away": "Pennsylvania Penny Pinchers",
+      "homeScore": 115.54,
+      "awayScore": 95.14,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "home": "Jersey City Jigaboos",
+      "away": "Baghdad Bombers",
+      "homeScore": 111.16,
+      "awayScore": 91.32,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "home": "Michigan Mooncrickets",
+      "away": "Alabama Windchimes",
+      "homeScore": 81.24,
+      "awayScore": 192.94,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "home": "New Jersey Knuckledraggers",
+      "away": "Southside scratch and sniff",
+      "homeScore": 130.66,
+      "awayScore": 120.28,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "home": "Tampa Torta Pounders",
+      "away": "Palestinian Cities",
+      "homeScore": 151.38,
+      "awayScore": 94.7,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "home": "Baghdad Bombers",
+      "away": "Portland Predators",
+      "homeScore": 89.58,
+      "awayScore": 119.78,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "home": "Michigan Mooncrickets",
+      "away": "Jersey City Jigaboos",
+      "homeScore": 143.92,
+      "awayScore": 140.82,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "home": "Alabama Windchimes",
+      "away": "New Jersey Knuckledraggers",
+      "homeScore": 135.46,
+      "awayScore": 81.72,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "home": "Pennsylvania Penny Pinchers",
+      "away": "Tampa Torta Pounders",
+      "homeScore": 80.36,
+      "awayScore": 75.98,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "home": "Southside scratch and sniff",
+      "away": "Palestinian Cities",
+      "homeScore": 117.56,
+      "awayScore": 120.78,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "home": "Jersey City Jigaboos",
+      "away": "Portland Predators",
+      "homeScore": 118.32,
+      "awayScore": 102.32,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "home": "New Jersey Knuckledraggers",
+      "away": "Michigan Mooncrickets",
+      "homeScore": 77.5,
+      "awayScore": 136.42,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "home": "Tampa Torta Pounders",
+      "away": "Baghdad Bombers",
+      "homeScore": 127.06,
+      "awayScore": 98.38,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "home": "Palestinian Cities",
+      "away": "Alabama Windchimes",
+      "homeScore": 164.28,
+      "awayScore": 100.0,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "home": "Southside scratch and sniff",
+      "away": "Pennsylvania Penny Pinchers",
+      "homeScore": 115.06,
+      "awayScore": 132.34,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "home": "Portland Predators",
+      "away": "Tampa Torta Pounders",
+      "homeScore": 116.2,
+      "awayScore": 146.4,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "home": "New Jersey Knuckledraggers",
+      "away": "Jersey City Jigaboos",
+      "homeScore": 101.5,
+      "awayScore": 98.24,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "home": "Michigan Mooncrickets",
+      "away": "Palestinian Cities",
+      "homeScore": 111.68,
+      "awayScore": 107.8,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "home": "Baghdad Bombers",
+      "away": "Southside scratch and sniff",
+      "homeScore": 108.4,
+      "awayScore": 135.34,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "home": "Alabama Windchimes",
+      "away": "Pennsylvania Penny Pinchers",
+      "homeScore": 122.12,
+      "awayScore": 123.12,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "home": "Southside scratch and sniff",
+      "away": "Portland Predators",
+      "homeScore": 94.82,
+      "awayScore": 130.3,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "home": "Jersey City Jigaboos",
+      "away": "Tampa Torta Pounders",
+      "homeScore": 111.38,
+      "awayScore": 112.24,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "home": "Palestinian Cities",
+      "away": "New Jersey Knuckledraggers",
+      "homeScore": 105.44,
+      "awayScore": 95.52,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "home": "Pennsylvania Penny Pinchers",
+      "away": "Michigan Mooncrickets",
+      "homeScore": 75.5,
+      "awayScore": 122.44,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "home": "Alabama Windchimes",
+      "away": "Baghdad Bombers",
+      "homeScore": 125.34,
+      "awayScore": 84.32,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "home": "Portland Predators",
+      "away": "Alabama Windchimes",
+      "homeScore": 124.36,
+      "awayScore": 94.38,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "home": "Palestinian Cities",
+      "away": "Jersey City Jigaboos",
+      "homeScore": 111.56,
+      "awayScore": 96.42,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "home": "Tampa Torta Pounders",
+      "away": "Southside scratch and sniff",
+      "homeScore": 149.36,
+      "awayScore": 85.22,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "home": "New Jersey Knuckledraggers",
+      "away": "Pennsylvania Penny Pinchers",
+      "homeScore": 91.56,
+      "awayScore": 83.92,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "home": "Michigan Mooncrickets",
+      "away": "Baghdad Bombers",
+      "homeScore": 130.98,
+      "awayScore": 119.44,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "home": "Michigan Mooncrickets",
+      "away": "Portland Predators",
+      "homeScore": 103.84,
+      "awayScore": 96.34,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "home": "Jersey City Jigaboos",
+      "away": "Southside scratch and sniff",
+      "homeScore": 89.92,
+      "awayScore": 101.64,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "home": "Pennsylvania Penny Pinchers",
+      "away": "Palestinian Cities",
+      "homeScore": 142.12,
+      "awayScore": 121.34,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "home": "Alabama Windchimes",
+      "away": "Tampa Torta Pounders",
+      "homeScore": 124.64,
+      "awayScore": 98.88,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "home": "Baghdad Bombers",
+      "away": "New Jersey Knuckledraggers",
+      "homeScore": 122.24,
+      "awayScore": 69.56,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "home": "Alabama Windchimes",
+      "away": "Portland Predators",
+      "homeScore": 114.6,
+      "awayScore": 140.48,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "home": "Pennsylvania Penny Pinchers",
+      "away": "Michigan Mooncrickets",
+      "homeScore": 153.84,
+      "awayScore": 135.86,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "home": "Palestinian Cities",
+      "away": "Baghdad Bombers",
+      "homeScore": 106.26,
+      "awayScore": 67.1,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "home": "Jersey City Jigaboos",
+      "away": "Tampa Torta Pounders",
+      "homeScore": 131.94,
+      "awayScore": 109.24,
+      "type": "regular"
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "home": "New Jersey Knuckledraggers",
+      "away": "Southside scratch and sniff",
+      "homeScore": 98.44,
+      "awayScore": 107.36,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 1,
+      "home": "Portland Predators",
+      "away": "Southside scratch and sniff",
+      "homeScore": 173.66,
+      "awayScore": 121.36,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 1,
+      "home": "Baghdad Bombers",
+      "away": "PUTNUM'S PEACOCK'S",
+      "homeScore": 119.96,
+      "awayScore": 124.66,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 1,
+      "home": "Jersey City Jigaboos",
+      "away": "Pennsylvania Penny Pinchers",
+      "homeScore": 150.3,
+      "awayScore": 112.96,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 1,
+      "home": "Palestinian Cities",
+      "away": "Alabama Windchimes",
+      "homeScore": 77.1,
+      "awayScore": 131.02,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "home": "Baghdad Bombers",
+      "away": "Portland Predators",
+      "homeScore": 79.84,
+      "awayScore": 136.72,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "home": "Tampa Torta Pounders",
+      "away": "Jersey City Jigaboos",
+      "homeScore": 123.22,
+      "awayScore": 105.3,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "home": "PUTNUM'S PEACOCK'S",
+      "away": "Palestinian Cities",
+      "homeScore": 93.88,
+      "awayScore": 95.66,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "home": "Pennsylvania Penny Pinchers",
+      "away": "Alabama Windchimes",
+      "homeScore": 69.4,
+      "awayScore": 103.46,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "home": "Portland Predators",
+      "away": "Palestinian Cities",
+      "homeScore": 166.84,
+      "awayScore": 137.24,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "home": "Alabama Windchimes",
+      "away": "Jersey City Jigaboos",
+      "homeScore": 94.82,
+      "awayScore": 151.96,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "home": "Southside scratch and sniff",
+      "away": "Tampa Torta Pounders",
+      "homeScore": 107.06,
+      "awayScore": 129.06,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "home": "Pennsylvania Penny Pinchers",
+      "away": "PUTNUM'S PEACOCK'S",
+      "homeScore": 82.24,
+      "awayScore": 118.28,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "home": "Southside scratch and sniff",
+      "away": "Alabama Windchimes",
+      "homeScore": 109.22,
+      "awayScore": 107.62,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "home": "Palestinian Cities",
+      "away": "Pennsylvania Penny Pinchers",
+      "homeScore": 131.8,
+      "awayScore": 130.48,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "home": "Jersey City Jigaboos",
+      "away": "PUTNUM'S PEACOCK'S",
+      "homeScore": 172.32,
+      "awayScore": 90.52,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "home": "Tampa Torta Pounders",
+      "away": "Baghdad Bombers",
+      "homeScore": 160.76,
+      "awayScore": 86.54,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "home": "Tampa Torta Pounders",
+      "away": "Portland Predators",
+      "homeScore": 184.06,
+      "awayScore": 150.24,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "home": "PUTNUM'S PEACOCK'S",
+      "away": "Alabama Windchimes",
+      "homeScore": 120.0,
+      "awayScore": 130.1,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "home": "Baghdad Bombers",
+      "away": "Southside scratch and sniff",
+      "homeScore": 120.16,
+      "awayScore": 120.5,
+      "type": "regular"
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "home": "Jersey City Jigaboos",
+      "away": "Palestinian Cities",
+      "homeScore": 117.2,
+      "awayScore": 133.74,
+      "type": "regular"
+    }
+  ],
+  "byes": [
+    {
+      "season": 2026,
+      "week": 1,
+      "team": "Tampa Torta Pounders",
+      "score": 137.42
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "team": "Southside scratch and sniff",
+      "score": 143.62
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "team": "Baghdad Bombers",
+      "score": 101.8
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "team": "Portland Predators",
+      "score": 119.58
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "team": "Pennsylvania Penny Pinchers",
+      "score": 137.12
+    }
+  ],
+  "playoffs": [
+    {
+      "season": 2025,
+      "round": "Quarterfinal",
+      "home": "Pennsylvania Penny Pinchers",
+      "away": "Palestinian Cities",
+      "homeScore": 139.12,
+      "awayScore": 124.5
+    },
+    {
+      "season": 2025,
+      "round": "Quarterfinal",
+      "home": "Tampa Torta Pounders",
+      "away": "Jersey City Jigaboos",
+      "homeScore": 141.6,
+      "awayScore": 92.62
+    },
+    {
+      "season": 2025,
+      "round": "Semifinal",
+      "home": "Michigan Mooncrickets",
+      "away": "Pennsylvania Penny Pinchers",
+      "homeScore": 142.06,
+      "awayScore": 141.98
+    },
+    {
+      "season": 2025,
+      "round": "Semifinal",
+      "home": "Tampa Torta Pounders",
+      "away": "Alabama Windchimes",
+      "homeScore": 130.7,
+      "awayScore": 99.12
+    },
+    {
+      "season": 2025,
+      "round": "Championship",
+      "home": "Tampa Torta Pounders",
+      "away": "Michigan Mooncrickets",
+      "homeScore": 111.04,
+      "awayScore": 104.3
+    }
+  ],
+  "champions": [
+    {
+      "season": 2025,
+      "champion": "Tampa Torta Pounders",
+      "runnerUp": "Michigan Mooncrickets",
+      "third": "Pennsylvania Penny Pinchers",
+      "championScore": 111.04,
+      "runnerUpScore": 104.3
+    }
+  ]
+}
