@@ -5,6 +5,17 @@ import {teams, seasons, summary, opponentBreakdown, fmt, percentage} from '../..
 export function generateStaticParams() {return teams.map(t=>({id:t.id}));}
 export async function generateMetadata({params}) {const {id}=await params;const t=teams.find(t=>t.id===id);return {title:t?`${t.manager||t.name} | National Fantasy League`:'Manager Profile | National Fantasy League'};}
 const initials = name => name ? name.split(' ').map(x=>x[0]).slice(0,2).join('').toUpperCase() : '?';
+const headshots = {
+  'Dontae Salvatore': '/Managers/Dontae.png',
+  'Jaeson Puleo': '/Managers/Jaeson.png',
+  'Holden Axelrod': '/Managers/Holden.png',
+  'Ayman Mohammed': '/Managers/Ayman.png',
+  'Jake Romano': '/Managers/Jake.png',
+  'Anthony Peschell': '/Managers/Anthony.png',
+  'Damian Gazzaneo': '/Managers/Damian.png',
+  'Dylan Supan': '/Managers/Dylan.png',
+  'Isaiah Wyatt': '/Managers/Isaiah.png'
+};
 const navigation=['Home','Standings','Matchups','Records','Rivalries','Teams','Champions','League History'];
 
 export default async function ManagerProfile({params}) {
@@ -22,8 +33,24 @@ export default async function ManagerProfile({params}) {
     <main className="shell content manager-detail">
       <Link className="manager-back" href="/?view=Teams">← Back to all managers</Link>
       <section className="manager-hero panel">
-        <div className="manager-placeholder manager-portrait" aria-hidden="true">{initials(team.manager)}</div>
-        <div className="manager-hero-copy"><div className="eyebrow">MANAGER PROFILE · EST. {team.firstSeason}</div><h1>{team.manager||'Manager to be confirmed'}</h1><p className="manager-franchise">{team.name}</p><span className={`manager-status ${team.status==='Active'?'status-active':''}`}>{team.status}</span><p>{all.seasons.join(' & ')} season{all.seasons.length===1?'':'s'} recorded · {team.division2026||team.division2025} Division</p></div>
+<div className="manager-placeholder manager-portrait">
+  {headshots[team.manager] ? (
+    <img
+      src={headshots[team.manager]}
+      alt={`${team.manager} headshot`}
+      style={{
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover',
+        objectPosition: 'center 25%',
+        borderRadius: '50%',
+        display: 'block'
+      }}
+    />
+  ) : (
+    initials(team.manager)
+  )}
+</div>        <div className="manager-hero-copy"><div className="eyebrow">MANAGER PROFILE · EST. {team.firstSeason}</div><h1>{team.manager||'Manager to be confirmed'}</h1><p className="manager-franchise">{team.name}</p><span className={`manager-status ${team.status==='Active'?'status-active':''}`}>{team.status}</span><p>{all.seasons.join(' & ')} season{all.seasons.length===1?'':'s'} recorded · {team.division2026||team.division2025} Division</p></div>
       </section>
       <section className="manager-kpis" aria-label="Career statistics">
         <div className="manager-kpi"><small>CAREER RECORD</small><b>{all.w}–{all.l}</b><span>{percentage(all.w,all.l,all.t)} win rate</span></div>
