@@ -3,7 +3,17 @@ import {useMemo, useState} from 'react';
 import {teams, summary, percentage, fmt} from '../../lib/managerStats';
 
 const initials = name => name ? name.split(' ').map(x=>x.charAt(0)).slice(0,2).join('').toUpperCase() : '?';
-
+const headshots = {
+  'Dontae Salvatore': '/Managers/Dontae.png',
+  'Jaeson Puleo': '/Managers/Jaeson.png',
+  'Holden Axelrod': '/Managers/Holden.png',
+  'Ayman Mohammed': '/Managers/Ayman.png',
+  'Jake Romano': '/Managers/Jake.png',
+  'Anthony Peschell': '/Managers/Anthony.png',
+  'Damian Gazzaneo': '/Managers/Damian.png',
+  'Dylan Supan': '/Managers/Dylan.png',
+  'Isaiah Wyatt': '/Managers/Isaiah.png'
+};
 export default function ManagerDirectory() {
   const [query, setQuery] = useState('');
   const [filter, setFilter] = useState('All');
@@ -18,7 +28,23 @@ export default function ManagerDirectory() {
       <div className="manager-filter" aria-label="Status filter">{['All','Active','Inactive'].map(x=><button type="button" key={x} className={filter===x?'selected':''} onClick={()=>setFilter(x)}>{x}</button>)}</div>
     </div>
     <div className="manager-cards">{items.map(t=>{const s=summary(t);return <a key={t.id} className="manager-profile-card" href={`/managers/${t.id}`}>
-      <div className="manager-profile-card-top"><div className="manager-placeholder" aria-hidden="true">{initials(t.manager)}</div><div className="manager-identity"><h3>{t.manager||'Manager to be confirmed'}</h3><p>{t.name}</p></div></div>
+      <div className="manager-profile-card-top"><div className="manager-placeholder">
+  {headshots[t.manager] ? (
+    <img
+      src={headshots[t.manager]}
+      alt={`${t.manager} headshot`}
+      style={{
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover',
+        objectPosition: 'center 25%',
+        borderRadius: '50%'
+      }}
+    />
+  ) : (
+    initials(t.manager)
+  )}
+</div><div className="manager-identity"><h3>{t.manager||'Manager to be confirmed'}</h3><p>{t.name}</p></div></div>
       <span className={`manager-status ${t.status==='Active'?'status-active':''}`}>{t.status}</span>
       <div className="manager-card-stats"><div><b>{s.w}–{s.l}</b><span>CAREER RECORD</span></div><div><b>{percentage(s.w,s.l,s.t)}</b><span>WIN %</span></div><div><b>{s.titles}</b><span>TITLES</span></div></div>
       <span className="manager-profile-link">View full profile <span aria-hidden="true">→</span></span>
